@@ -61,7 +61,9 @@ a {
     overflow: hidden;
     width: auto;
     width: 100%;
-    background-color: black;
+    background-color: rgba(7, 48, 38, 0.168) ;
+    padding-left: 100px;
+    padding-right: 100px;
    }
 .menu-indexl {
     float: left;
