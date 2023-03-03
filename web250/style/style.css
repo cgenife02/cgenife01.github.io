@@ -1,0 +1,131 @@
+html {
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+}
+h2 {
+  font-size: 30px;
+  
+}
+
+body {
+    margin: 0 0 100px;
+    /* bottom = footer height */
+    text-align: center;
+    color:rgb(202, 224, 217);
+    background-image: url(../images/forest.webp);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color:rgb(202, 224, 217);
+    text-decoration: none ;
+}
+p{
+  font-style: italic;
+  color:rgb(202, 224, 217);
+  
+  text-align: center;
+  font-size: 80px;
+  font-weight: bolder;
+  animation-name: index;
+  animation-duration: 2s;
+  margin-top: 20px;
+}
+.frontP{
+  margin-top: 150px;
+  text-shadow: 2px 2px rgb(202, 224, 217);
+  color:rgb(94, 143, 134);
+}
+.menu-indexu {
+    list-style-type: none;
+    overflow: hidden;
+    width: auto;
+    padding-left: 20px;
+    width: 100%;
+   }
+.menu-indexl {
+    float: left;
+    font-size: 25px;
+    color:rgb(202, 224, 217);
+  }
+li a, .mydrop {
+    display: inline-block;
+    color:rgb(202, 224, 217);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover, .dropdown:hover .mydrop {
+    background-color: #03342a89;
+    border-radius: 50%;
+    
+  }
+  
+footer {
+    background: rgba(7, 48, 38, 0.168);
+    position: absolute;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+/* contract page*/
+.contrap{
+  text-align: left;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  
+}
+
+.theContrac{
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  padding-right: 100px;
+  padding-left: 100px;
+  border-radius: 5px;
+  border-spacing: 0px;
+  background-color:rgba(7, 48, 38, 0.33);
+  border-collapse: separate;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 15px;
+  outline: 2px solid rgb(29, 22, 9);
+  
+}
+ /* Introduction Page */
+
+.intro{
+  text-align: left;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  
+}
+.theIntro{
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  padding-right: 100px;
+  padding-left: 100px;
+  border-radius: 5px;
+  border-spacing: 0px;
+  background-color:rgba(7, 48, 38, 0.33);
+  border-collapse: separate;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 70px;
+  font-size: 15px;
+  outline: 2px solid rgb(29, 22, 9);
+  
+}
+.border{
+   border: 2px solid rgba(1, 46, 40, 0.518);
+}
