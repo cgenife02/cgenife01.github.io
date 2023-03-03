@@ -64,6 +64,8 @@ a {
     background-color: rgba(7, 48, 38, 0.168) ;
     padding-left: 100px;
     padding-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
    }
 .menu-indexl {
     float: left;
