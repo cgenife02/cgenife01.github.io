@@ -60,9 +60,12 @@ p{
 .menu-indexu {
     list-style-type: none;
     overflow: hidden;
-    width: auto;
-    padding-left: 20px;
-    width: 100%;
+    width: 78%;
+    background-color: rgba(7, 48, 38, 0.168) ;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
    }
 .menu-indexl {
     float: left;

@@ -75,7 +75,6 @@ a {
 .menu-indexu {
     list-style-type: none;
     overflow: hidden;
-    width: auto;
     width: 78%;
     background-color: rgba(7, 48, 38, 0.168) ;
     padding-left: 100px;
