@@ -22,12 +22,9 @@ p{
     margin-top: 20px;
 }
 .frontP{
-    /*margin-top: 100px;*/
+   
     text-shadow: 2px 2px rgb(202, 224, 217);
     color:rgb(94, 143, 134);
-    /*text-align: center;
-    padding-right: 100px;
-    padding-left: 100px;*/
 }
 .theIndex{
   display: flex;
