@@ -7,9 +7,15 @@ h1{
     text-align: center;
     font-weight: bolder;
 }
-h2 {
-  font-size: 30px;
-  
+h2{
+  font-style: italic;
+  color:rgb(202, 224, 217);
+  text-align: center;
+  font-size: 80px;
+  font-weight: bolder;
+  animation-name: index;
+  animation-duration: 2s;
+  margin-top: 20px;
 }
 
 body {
@@ -27,17 +33,8 @@ a {
     color:rgb(202, 224, 217);
     text-decoration: none ;
 }
-p{
-  font-style: italic;
-  color:rgb(202, 224, 217);
-  text-align: center;
-  font-size: 80px;
-  font-weight: bolder;
-  animation-name: index;
-  animation-duration: 2s;
-  margin-top: 20px;
-}
-.frontP{
+
+.fronth2{
 
   text-shadow: 2px 2px rgb(202, 224, 217);
   color:rgb(94, 143, 134);
