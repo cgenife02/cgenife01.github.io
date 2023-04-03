@@ -112,6 +112,9 @@ li a:hover, .dropdown:hover .mydrop {
 }
    
  /* contract page*/
+ .Cmode{
+  font-size: 30px;
+}
  .contrap{
     text-align: left;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -138,6 +141,9 @@ li a:hover, .dropdown:hover .mydrop {
   }
   /* Introduction Page */
 
+.Imode{
+    font-size: 30px;
+  }
 .intro{
     text-align: left;
     font-family:Georgia, 'Times New Roman', Times, serif;

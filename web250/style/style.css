@@ -100,6 +100,9 @@ footer {
   overflow: hidden;
 }
 /* contract page*/
+.Cmode{
+  font-size: 30px;
+}
 .contrap{
 text-align: left;
 font-family:Georgia, 'Times New Roman', Times, serif;
@@ -125,7 +128,9 @@ outline: 2px solid rgb(29, 22, 9);
 
 }
 /* Introduction Page */
-
+.Imode{
+  font-size: 30px;
+}
 .intro{
 text-align: left;
 font-family:Georgia, 'Times New Roman', Times, serif;
@@ -153,6 +158,9 @@ outline: 2px solid rgb(29, 22, 9);
  border: 2px solid rgba(1, 46, 40, 0.518);
 }
 /* Brand Page */
+.Bmode{
+  font-size: 30px;
+}
 .brand{
 text-align: left;
 font-family: Georgia, 'Times New Roman', Times, serif;
