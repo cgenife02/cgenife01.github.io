@@ -114,15 +114,12 @@ font-size: 25px;
 display: flex;
 flex-wrap: wrap;
 height: auto;
-padding-right: 100px;
-padding-left: 100px;
+padding: 0 100px;
 border-radius: 5px;
 border-spacing: 0px;
 background-color:rgba(7, 48, 38, 0.33);
 border-collapse: separate;
-margin-right: 50px;
-margin-left: 50px;
-margin-top: 70px;
+margin: 70px 50px;
 font-size: 15px;
 outline: 2px solid rgb(29, 22, 9);
 
