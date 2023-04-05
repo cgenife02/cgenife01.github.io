@@ -12,7 +12,7 @@ h2{
   font-style: italic;
   color:rgb(228, 246, 228);
   text-align: center;
-  font-size: 80px;
+  font-size: 30px;
   font-weight: bolder;
   margin-top: 20px;
   }
@@ -23,15 +23,16 @@ header{
 }
   
 .fronth2{
-text-shadow: 2px 2px rgb(228, 246, 228);
 color:rgb(94, 143, 134);
-border-color: black;
-border-radius: 5px;
 text-align: center;
 padding-top: 250px;
 padding-bottom: 130px;
 
 }
+.pindex{
+  color:rgb(202, 224, 217);
+  text-align: center;
+  }
 
 .theIndex{
   display: flex;
@@ -53,8 +54,8 @@ padding-bottom: 130px;
 
 body {
   text-align: center;
-  color:rgb(228, 246, 228);
-  background:linear-gradient(0deg, rgba(7, 48, 38, 0.39), rgba(7, 48, 38, 0.39)), url(../images/forests.webp);
+ 
+  background:linear-gradient(0deg, rgba(7, 48, 38, 0.40), rgba(11, 76, 60, 0.40)), url(../images/forests.webp);
   background-repeat: no-repeat;
   background-size: cover;
  
@@ -118,9 +119,7 @@ footer a{
   width: 100%;
 }
  /* contract page*/
- .Cmode{
-  font-size: 30px;
-}
+
   div .contrap{
     text-align: left;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
