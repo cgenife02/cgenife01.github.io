@@ -54,7 +54,7 @@ padding-bottom: 130px;
 
 body {
   text-align: center;
- 
+  color:rgb(228, 246, 228);
   background:linear-gradient(0deg, rgba(7, 48, 38, 0.40), rgba(11, 76, 60, 0.40)), url(../images/forests.webp);
   background-repeat: no-repeat;
   background-size: cover;
