@@ -9,19 +9,19 @@
 </head>
 <body>
 <header>
-<a href = "index.php"  >
-	</a>
-  <div class="header"> 
+  <a href = "index.php"  >
+	  </a>
+    <div class="header"> 
      <h1>WEB-250 * Chuchu Genife * Sheeba Beauty</h1>
-    <nav>
-      <ul class="menu-indexu">
-        <li class="menu-indexl"><a href="?p=index.php" target="_self">Home</a></li>
-        <li class="menu-indexl"><a href="?p=contract.php" target="_self">Contract</a></li>
-        <li class="menu-indexl"><a href="?p=introduction.php" target="_self">Introduction</a></li>
-        <li class="menu-indexl"><a href="?p=brand.php" target="_self">Brand</a></li> 
-      </ul>
-    </nav>
-  </div>
+     <nav>
+       <ul class="menu-indexu">
+         <li class="menu-indexl"><a href="?p=home.php">Home</a></li>
+         <li class="menu-indexl"><a href="?p=contract.php" target="_self">Contract</a></li>
+         <li class="menu-indexl"><a href="?p=introduction.php" target="_self">Introduction</a></li>
+         <li class="menu-indexl"><a href="?p=brand.php" target="_self">Brand</a></li> 
+        </ul>
+     </nav>
+    </div>
 </header>
 <hr />
 <!-- dynamic content goes here -->
