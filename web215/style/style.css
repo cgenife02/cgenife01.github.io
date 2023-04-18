@@ -164,6 +164,15 @@ div ul li{
      border: 2px solid rgba(1, 46, 40, 0.518);
   }
  /*Introduction form*/
+ .theIntrof{
+  height: auto;
+  color: rgb(228, 246, 228);
+  padding-top: 150px;
+  border-collapse: separate;
+  font-size: 15px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
 
  .formTable {
   display: flex;
@@ -172,15 +181,7 @@ div ul li{
   border-collapse: separate;
   margin-top: 50px;
 }
-h2.form{
-  text-align: center;
-}
-.formAnswer{
- font-weight: bold;
- color:black;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
- 
-}
+
 .submit{
   background-color: #4CAF50;
   border: none;
@@ -194,16 +195,13 @@ h2.form{
   cursor: pointer;
 }
 .board{
-  
-  width: 600px;
   border: 4px dashed transparent;
-  border-image: linear-gradient(to right, orange, rgba(72, 54, 14, 0.905));
   border-image-slice: 1;
   padding: 25px;
 }
 .nameIntro{
   font-weight: Bold;
   color: #152922;
-  background-color: #EDC9AF;
+  
 }
 
