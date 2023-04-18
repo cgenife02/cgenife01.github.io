@@ -163,4 +163,47 @@ div ul li{
   .border{
      border: 2px solid rgba(1, 46, 40, 0.518);
   }
+ /*Introduction form*/
+
+ .formTable {
+  display: flex;
+  border-radius: 5px;
+  border-spacing: 0px;
+  border-collapse: separate;
+  margin-top: 50px;
+}
+h2.form{
+  text-align: center;
+}
+.formAnswer{
+ font-weight: bold;
+ color:black;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
  
+}
+.submit{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.board{
+  
+  width: 600px;
+  border: 4px dashed transparent;
+  border-image: linear-gradient(to right, orange, rgba(72, 54, 14, 0.905));
+  border-image-slice: 1;
+  padding: 25px;
+}
+.nameIntro{
+  font-weight: Bold;
+  color: #152922;
+  background-color: #EDC9AF;
+}
+

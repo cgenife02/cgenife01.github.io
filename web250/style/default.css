@@ -163,6 +163,20 @@ html {
        border: 2px solid rgba(1, 46, 40, 0.518);
     }
    /*FizzBuzz*/
+   .Introdiv{
+    padding-left: 60px;
+    padding-right: 60px;
+   }
+  
+   .theFizz{
+    display: flex;
+    height: auto;
+    color: rgb(228, 246, 228);
+    padding-top: 150px;
+    border-collapse: separate;
+    font-size: 15px;
+      
+    }
    .tab4 {
     display: flex;
     flex-wrap: wrap;

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEB215 * Chuchu Genife's Shebba Beauty * Introduction Form</title>
+  <link rel="icon" type="image/jpg" href="images/leaves.jpg">
+  <link rel="stylesheet" href="style/style.css"> 
+<script src="script/introductionForm.js"></script>
+</head>
+
+<body>
+<div data-include="components/header.html"></div> 
+
+<main>
+    
+
+    <h2 class="form" > Introduction Form Page</h2>
+
+    <div class="table">
+    
+    <form action="javascript:void(0);" method="post" onsubmit="displayEntry();" id="display" id="showAnswers">  
+    <label for="fName">First Name</label>   
+    <input type="fname"  name="fName" id="fName" value="Gabby" required/> <br> <br>
+    <label for="mName">Middle Initial</label> 
+    <input type="minitial" name="mName" id="mName" value="N" required maxlength="1">  <br><br>  
+    <label for="lName">Last Name</label> 
+    <input type="lname"  name="lName" id="lName" value="Genife" required>  <br> <br>
+    <label for="Question1">Please enter Your personal background:</label> 
+    <input type="question1"  name="Question1" id="qNum1" value="I am from Ethiopia i lived in US almost half of my age . I went to tyee high school in Seattle and i went to diffrent colleges. i am married and i have three beautiful kids." \n required>  <br> <br>
+    <label for="Question2">Please enter Your professional background:</label> 
+    <input type="question2"  name="Question2" id="qNum2" value=" I have worked so many jobs from cashier, customer service representative ,Admission attendant, CNA to sql developer" required>  <br> <br>
+    <label for="Question3">Please enter Your academic background:</label> 
+    <input type="question3"  name="Question3" id="qNum3" value=" I have certificate as sql developer, Microsoft office certificate,customer service rep certificate. Now i am taking associate degree in Full Stack programming." required>  <br> <br> 
+    <label for="Question4">Please enter Your information/technology background:</label> 
+    <input type="question4"  name="Question4" id="qNum4" value=" I have worked so many jobs from cashier, customer service representative ,Admission attendant, CNA to sql developer" required>  <br> <br>   
+    <label for="Question5">Please enter Your primary computer platform:</label> 
+    <input type="question5"  name="Question5" id="qNum5" value=" Windows 10 Home and office" required>  <br> <br>
+    <label for="Question6">Please enter anything else you would like to share:</label> 
+    <input type="question6"  name="Question6" id="qNum6" value="  i have three kids two toddlers and one 12 years old i am very thankful to have them in my life. And sometimes i found it very dificult taking online courses . I found it very hard to focuse and do all my assignment on time. So sometimes i need to stay up late in order to do my school work or to study." required>  <br> <br>
+    <input  type="submit" class="submit" value="Submit"> 
+    </form>
+    <div >
+    <div>
+        
+    <div class="board">
+    <p id="display" style="font-family:cursive; color:azure"></p>
+    <p id="showAnswers1" class="formAnswer"></p>
+    <p id="showAnswers2" class="formAnswer"></p>
+    <p id="showAnswers3" class="formAnswer"></p>
+    <p id="showAnswers4" class="formAnswer"></p>
+    <p id="showAnswers5" class="formAnswer"></p>
+    <p id="showAnswers6" class="formAnswer"></p>
+    </div>
+    </div>
+    </div>
+    </div>
+</main>
+<br>
+<br>
+</div> 
+<footer>
+  <div data-include="components/footer.html"></div>
+  <script src="script/HTMLInclude.js"></script>
+</footer>
+   
+</body>
+</html>
