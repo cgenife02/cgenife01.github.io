@@ -29,7 +29,7 @@ function setCookie(cname, cvalue, exdays) {
     } else {
       user = prompt("Please enter your name:", "");
       if (user != "" && user != null) {
-        setCookie("user", user, 30);
+        setCookie("user", user, 365);
       }
     }
   }
