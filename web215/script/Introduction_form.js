@@ -1,5 +1,39 @@
+function setCookie(cname, cvalue, exdays) {
+    const d = new Date();
+    d.setTime(d.getTime() + (exdays*1000*60*60*24));
+    let expires = "expires="+ d.toGMTString();
+    window.document.cookie = cname+ "=" +cvalue+ ";" + expires + ";path=/";
+  }
+  
+  function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+      var c = ca[i].trim();
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return "";
+  }
+  
+  function checkCookie() {
+    var user = getCookie("user");
+    if (user != "") {
+      alert("Welcome again " + user);
+    } else {
+      user = prompt("Please enter your name:", "");
+      if (user != "" && user != null) {
+        setCookie("user", user, 365);
+      }
+    }
+  }
 
-function displayEntry(){
+  function displayEntry(){
     var fName = document.getElementById("fName").value;
     var mName = document.getElementById("mName").value;
     var lName = document.getElementById("lName").value;
