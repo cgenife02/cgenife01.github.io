@@ -6,7 +6,7 @@
   <title>WEB215 * Chuchu Genife's Shebba Beauty * Introduction Form</title>
   <link rel="icon" type="image/jpg" href="images/leaves.jpg">
   <link rel="stylesheet" href="style/style.css"> 
-<script src="script/Introduction_form.js"></script>
+  <script src="script/Introduction_form.js"></script>
 </head>
 
 <body onload= "checkCookie()">
